@@ -4,4 +4,4 @@ const app = express();
 
 app.get('/', (req, res) => res.send('Hello World!'));
 
-app.listen(port.ENV || 3000);
+app.listen(process.env.PORT || 3000);

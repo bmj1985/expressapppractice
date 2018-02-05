@@ -4,7 +4,8 @@
   "description": "An example app",
   "main": "app.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/bmj1985/expressapppractice/issues"
   },
-  "homepage": "https://github.com/bmj1985/expressapppractice#readme"
+  "homepage": "https://github.com/bmj1985/expressapppractice#readme",
+  "dependencies": {
+    "cors": "^2.8.4"
+  }
 }
